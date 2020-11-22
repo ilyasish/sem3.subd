@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CD8C2DB2-1137-4B36-36F1-9F921B76BE39" containerWithKeyObject="ABA43C56-8998-F833-4848-45A4B3686165" localFKIndex="62341F56-B96F-CA51-074A-1CB0CC9E2505" name="Equipment_Picking_FK">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 11:58:58 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<referredTableLongName>Picking</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CBCAB002-38FD-2184-F120-BD494A1BFDCE</referredTableID>
+<keyObject>2629036F-A9C5-0735-3BEE-9B4387B85424</keyObject>
+<referredKeyID>2629036F-A9C5-0735-3BEE-9B4387B85424</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

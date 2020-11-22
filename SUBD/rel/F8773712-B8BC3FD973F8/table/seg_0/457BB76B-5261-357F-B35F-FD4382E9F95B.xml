@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="457BB76B-5261-357F-B35F-FD4382E9F95B" name="Receiving_car">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 10:44:13 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="55677B4E-59B4-8472-2657-D72A696BC616">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 11:45:42 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name_car" id="D091A1EE-A4D4-4CF0-A386-D54A9DF3672C">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 11:45:42 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Year_manufacture" id="3F1D18FF-0817-922B-CE66-407685234C25">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 11:45:42 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mileage" id="27C35491-AC20-CD22-9310-0B72F69BEDFA">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 11:45:42 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Number of owners" id="FD798B92-DD1F-CFDF-0BCE-2E46D057EEC9">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 11:45:42 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clients_ID" id="9CE4D36A-C14D-F595-50F6-9504F2441E5A">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 12:02:18 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E81433F8-1A1B-46D4-3B97-2BEFF3CFEE9D" referredColumn="D75F2E11-80ED-A2E9-C9FD-C44C8634B093"/>
+</associations>
+</Column>
+<Column name="Employees_ID" id="B80A1255-87E3-FD89-F47E-EA6AB0BA87A4">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 12:03:12 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="175BB502-CE63-6182-01A6-6053098DEE96" referredColumn="4D1A7FD1-C9BD-13E0-C181-3D268A050971"/>
+</associations>
+</Column>
+<Column name="Price" id="A98FE605-2825-610D-0BE7-D2ECB82A64F4">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-19 08:49:27 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1ABA0257-2358-34F0-7B73-3B461A08B3C5" name="Receiving_car_PK">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 11:45:42 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55677B4E-59B4-8472-2657-D72A696BC616"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1DBE37E1-5778-36BF-1781-1C9DA1E3DB35" name="Receiving_car_Clients_FK">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 12:02:18 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CE4D36A-C14D-F595-50F6-9504F2441E5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC9EFBA1-65B0-2629-9262-3F8AD1FCF7DB" name="Receiving_car_Employees_FK">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 12:03:12 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B80A1255-87E3-FD89-F47E-EA6AB0BA87A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

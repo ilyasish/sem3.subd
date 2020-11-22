@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ABA43C56-8998-F833-4848-45A4B3686165" name="Equipment">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 10:44:01 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cars_ID" id="0D2A984F-CA59-AFB9-0DAD-D1643F1C53B7">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-19 09:15:58 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="521617B5-33A0-56CC-0CA4-3520A2D686DA" referredColumn="76A5941D-237B-DC25-29D1-DB473A124568"/>
+</associations>
+</Column>
+<Column name="Power" id="A7942B40-44EA-5CC9-3CEB-EC1B3358948C">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 11:18:06 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Actuator" id="B324884E-8271-1315-CBB6-D447CC01F42D">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 11:25:15 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Picking_ID" id="875789FB-E782-D6CE-5D06-A5CF655EF3E4">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 11:58:58 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD8C2DB2-1137-4B36-36F1-9F921B76BE39" referredColumn="23174301-CEEB-5271-2294-D82A9688BAA6"/>
+</associations>
+</Column>
+<Column name="Body_ID" id="CBFA4BD9-9005-8DF1-76F2-3D2E63096BD5">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-19 09:15:02 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F75AF305-B608-5838-9A6A-30A51A333ADA" referredColumn="B5F907A5-183F-4BC6-36F4-CD36E4971F43"/>
+</associations>
+</Column>
+<Column name="Class_car_ID" id="55422204-0BB9-08BB-F31F-920CDA2BB3BC">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-19 09:15:13 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48EBDF5F-AD81-EA62-20E5-716F88CC4212" referredColumn="30F5F172-20C5-4364-EBF3-D2D3A5C2537A"/>
+</associations>
+</Column>
+<Column name="Transmission_ID" id="5D847510-9F2A-E4E2-C1B4-5FD99A0ED923">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-19 09:15:18 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16FAF134-BAE1-DDA0-6938-FC748703C4F3" referredColumn="51359391-1300-8EAA-60B1-D8F0731B2693"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D152CA2E-B155-BADC-2469-CA3AFF39F5BC" name="Equipment_PK">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 11:18:06 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D2A984F-CA59-AFB9-0DAD-D1643F1C53B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62341F56-B96F-CA51-074A-1CB0CC9E2505" name="Equipment_Picking_FK">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 11:58:58 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="875789FB-E782-D6CE-5D06-A5CF655EF3E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D21CFEC1-FD66-4014-EAB8-6C2F0C74A218" name="Equipment_Body_FK">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-19 09:15:02 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBFA4BD9-9005-8DF1-76F2-3D2E63096BD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3B067ED-D6B3-37E6-FAE1-200E9F528B44" name="Equipment_Class_car_FK">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-19 09:15:13 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55422204-0BB9-08BB-F31F-920CDA2BB3BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BED9DDAF-ADF5-CE0A-4E4C-57FFCF2BE028" name="Equipment_Transmission_FK">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-19 09:15:18 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D847510-9F2A-E4E2-C1B4-5FD99A0ED923"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12E426A7-BB0B-1F5E-AAD5-0C1C20A56B05" name="Equipment_Cars_FK">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-19 09:15:58 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D2A984F-CA59-AFB9-0DAD-D1643F1C53B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

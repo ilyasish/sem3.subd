@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="403AD0F9-56C5-CD4B-9CBE-AB515DC392D7" name="Body">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-19 09:03:03 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="B5F907A5-183F-4BC6-36F4-CD36E4971F43">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-19 09:05:39 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="50091807-1F1B-FE78-A430-ED640DDAB551">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-19 09:05:39 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DFC55687-080F-D589-30D1-3ACCD1DB4E6D" name="Body_PK">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-19 09:05:39 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5F907A5-183F-4BC6-36F4-CD36E4971F43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

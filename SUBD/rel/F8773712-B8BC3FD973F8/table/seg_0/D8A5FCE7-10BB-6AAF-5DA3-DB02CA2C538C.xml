@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8A5FCE7-10BB-6AAF-5DA3-DB02CA2C538C" name="Attendance">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-19 08:54:17 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="1EB53638-F67E-A4A4-F51F-104D7A5AC504">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-19 08:56:25 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="0AE27245-91E6-40D1-4057-8C266EEBE5DA">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-19 08:56:25 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Price" id="AE63D627-5E78-D5A5-7D68-255A60E1ACF1">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-19 08:56:25 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1AA74C0C-57CB-3C75-0B90-35F28B067B6C" name="Attendance_PK">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-19 08:56:31 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EB53638-F67E-A4A4-F51F-104D7A5AC504"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

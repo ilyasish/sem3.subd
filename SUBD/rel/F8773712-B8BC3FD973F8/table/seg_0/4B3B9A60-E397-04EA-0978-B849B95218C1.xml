@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B3B9A60-E397-04EA-0978-B849B95218C1" name="Employees">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 10:43:40 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="4D1A7FD1-C9BD-13E0-C181-3D268A050971">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 10:57:33 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="First_name" id="E8F3D6E6-BB40-1816-1DBD-10A1C5562D36">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 10:57:33 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Last_name" id="149F0295-06CC-76C5-B345-0CB91E88D275">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 11:03:58 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Salary" id="EEA58A27-D7EE-B834-C443-C9F76DD359BD">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 11:03:58 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Positions_ID" id="46A797DA-B8A5-27B3-D121-1F1D20E06B2C">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 11:03:58 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09BE0861-7F2B-ACB4-B397-686EB155814C" referredColumn="FAED7E07-206D-C587-E523-64C8BB351A00"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97040CD4-FA2F-62C0-D642-CEEB73225686" name="Employees_PK">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 10:57:33 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D1A7FD1-C9BD-13E0-C181-3D268A050971"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28E4E3D1-39F4-556C-73C4-15E79037D69F" name="Employees_Positions_FK">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 11:55:20 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46A797DA-B8A5-27B3-D121-1F1D20E06B2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

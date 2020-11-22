@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58DB7CEA-D5A9-62B7-04CE-94A95DCEFC47" name="Сar sales">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 11:46:09 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="7BE26BB9-25AB-016E-9651-2546EA1348B1">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 11:49:42 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_car" id="C87DAEB0-B92B-430A-8217-C2BEB4C5ED56">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 11:49:42 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_employee" id="EF9AF78C-038F-249B-D061-DFF76E07FBD9">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 11:49:42 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sale_price" id="D92365BB-2567-3EA4-C3EC-79E5A90C227F">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 11:49:42 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Employees_ID" id="1BDCDCF7-ECBE-96D5-6773-FE268D718BDC">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 12:03:26 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="133C6C96-0FAE-8CCC-4733-A48FAA5F20BE" referredColumn="4D1A7FD1-C9BD-13E0-C181-3D268A050971"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="03FF3BA8-8543-DB29-1D8C-55B645C051B5" name="Сar sales_PK">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 11:49:42 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BE26BB9-25AB-016E-9651-2546EA1348B1"/>
+<colUsage columnID="C87DAEB0-B92B-430A-8217-C2BEB4C5ED56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A76A9DE-3410-3C82-3BEA-7DA12F6CDF37" name="Сar sales_Employees_FK">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 12:03:26 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BDCDCF7-ECBE-96D5-6773-FE268D718BDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
