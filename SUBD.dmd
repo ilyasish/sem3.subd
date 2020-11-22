@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SUBD" id="144D6AF9-0FE1-16C3-139D-F5D15C6580B6" version="3.5">
+<createdBy>Ilyas</createdBy>
+<createdTime>2020-11-17 10:42:30 UTC</createdTime>
+<ownerDesignName>SUBD</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>144D6AF9-0FE1-16C3-139D-F5D15C6580B6</designId>
+</OSDM_Design>
